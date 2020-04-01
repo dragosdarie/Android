@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/about"
+        android:title="About Technoprest" />
+    <item android:id="@+id/hacking"
+        android:title="Hacking" />
+    <item android:id="@+id/suggestions"
+        android:title="Suggestions" />
+    <item android:id="@+id/settings"
+        android:title="Settings" />
+    <item android:id="@+id/sensors_location"
+        android:title="Sensors and Location" />
+</menu>
