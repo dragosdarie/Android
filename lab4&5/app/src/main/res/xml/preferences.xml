@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Settings"
+        android:key="sync_category">
+
+        <CheckBoxPreference
+            android:key="card_info"
+            android:title="Save credit card info"
+            android:defaultValue="true"/>
+
+
+        <EditTextPreference
+            android:key="email_address"
+            android:title="Email Address"
+            android:summary="Enter Your Email Address"
+            android:dialogTitle="Enter Your Email Address"
+            android:defaultValue=""
+            android:inputType="textEmailAddress"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
